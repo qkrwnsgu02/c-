@@ -33,7 +33,7 @@ void print_node() {
     struct node* ptr;
     ptr = root;
     cout << "----------------------------\n";
-    cout << "Name  ////  ID  ////  Salary\n";
+    cout << "Name  ////  ID  ////  Salary pjh\n";
     cout << "----------------------------\n";
     while (ptr->p_next != 0) {
         cout << ptr->name << " ";
